@@ -10,9 +10,11 @@ This repository presents an edge-AI based defect classification system for wafer
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](#)
 
 Introduction:
+
 Semiconductor manufacturing involves hundreds of tightly controlled fabrication steps, where even microscopic defects can lead to yield loss or catastrophic device failure. Modern fabs generate massive volumes of inspection images using tools such as optical microscopes, SEM, and defect review systems. Traditional centralized inspection pipelines suffer from high latency, heavy bandwidth usage, and poor scalability. This project explores an **Edge-AI based defect classification system** that enables fast, on-device inference aligned with Industry 4.0 manufacturing requirements.
 
 🎯 Hackathon Objective:
+
 The objective of this project is to design and demonstrate an "Edge-AI capable
 defect classification system" that can:
 
