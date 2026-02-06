@@ -9,5 +9,6 @@ This repository presents an edge-AI based defect classification system for wafer
 [![GF](https://img.shields.io/badge/Sponsored%20by-GlobalFoundries-darkblue)](https://www.globalfoundries.com)
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](#)
 
- 🧠 Introduction:
+Introduction:
+ 
 Semiconductor manufacturing involves hundreds of tightly controlled fabrication steps, where even microscopic defects can lead to yield loss or catastrophic device failure. Modern fabs generate massive volumes of inspection images using tools such as optical microscopes, SEM, and defect review systems. Traditional centralized inspection pipelines suffer from high latency, heavy bandwidth usage, and poor scalability. This project explores an **Edge-AI based defect classification system** that enables fast, on-device inference aligned with Industry 4.0 manufacturing requirements.
