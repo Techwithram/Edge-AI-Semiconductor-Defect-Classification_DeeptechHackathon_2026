@@ -51,4 +51,3 @@ The dataset is expected to evolve throughout the hackathon by:
 
 All additions will preserve the original dataset structure and labeling scheme.
 
-
