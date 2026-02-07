@@ -108,6 +108,16 @@ Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026/
 ├── results/        # Evaluation metrics & confusion matrices
 ├── docs/           # Detailed documentation
 └── README.md
+```
+### ⚙️Edge Deployment Strategy
+
+The trained model is exported to the ONNX format to ensure portability across edge platforms. The target deployment flow uses **NXP eIQ**, focusing on:
+
+- Compatibility with NXP i.MX RT series devices
+- Low memory footprint and inference latency
+- Alignment with real fab edge constraints
+
+No physical hardware is required as part of the hackathon scope; the workflow concludes with generation of deployment-ready artifacts.
 
 
 
