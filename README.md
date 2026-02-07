@@ -130,7 +130,9 @@ Current status:
 
 ---
 **Maintainer    :** Thatikonda Ramakrishna
+
 **Co-Maintainers:** Mathivanan V, Kavya K, Midhunan D J
+
 **Domain        :** Edge-AI • Semiconductor Manufacturing • Industry 4.0
 
 
