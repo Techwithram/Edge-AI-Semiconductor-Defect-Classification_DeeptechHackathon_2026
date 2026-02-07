@@ -57,7 +57,13 @@ The defect classes were selected to represent **commonly observed and manufactur
 - **Crack Defects**  
   Structural cracks caused by mechanical stress, thermal cycling, or process non-uniformities.
 
-  
+### 🔹 Auxiliary Classes:
+
+- **Clean**  
+  Defect-free semiconductor structures exhibiting uniform geometry and process-consistent patterns. This class is critical to prevent false positives during inspection.
+
+- **Other**  
+  A catch-all category that includes **missing contacts, merging contacts**, and other uncommon or ambiguous defects that do not consistently belong to the primary classes.
 
 
 
