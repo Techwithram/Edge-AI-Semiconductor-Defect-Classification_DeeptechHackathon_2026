@@ -34,31 +34,25 @@ The defect classes were selected to represent **commonly observed and manufactur
 [![CMP](https://img.shields.io/badge/CMP_Scratches-green)](#)
 [![Crack](https://img.shields.io/badge/Crack_Defects-darkred)](#)
 
-### 🔹 Primary Defect Classes (6)
+### 🔹 Primary Defect Classes:
 
 - **Bridge Defects**  
-  Unintended electrical connections formed between adjacent metal lines,
-  typically caused by lithography or etching errors.
+  Unintended electrical connections formed between adjacent metal lines, typically caused by lithography or etching errors.
 
 - **Line Edge Roughness (LER)**  
-  Irregular or rough edges along patterned lines, primarily introduced during
-  lithography, impacting device variability and reliability.
+  Irregular or rough edges along patterned lines, primarily introduced during lithography, impacting device variability and reliability.
 
 - **Open Defects**  
-  Discontinuities or breaks in interconnect lines resulting in missing electrical
-  paths.
+  Discontinuities or breaks in interconnect lines resulting in missing electrical paths.
 
 - **Via Defects**  
-  Missing, voided, misaligned, or partially filled vias that disrupt vertical
-  inter-layer connectivity.
+  Missing, voided, misaligned, or partially filled vias that disrupt vertical inter-layer connectivity.
 
 - **CMP Scratches**  
-  Surface-level scratches and damage introduced during chemical mechanical
-  polishing, potentially affecting downstream layers.
+  Surface-level scratches and damage introduced during chemical mechanical polishing, potentially affecting downstream layers.
 
 - **Crack Defects**  
-  Structural cracks caused by mechanical stress, thermal cycling, or process
-  non-uniformities.
+  Structural cracks caused by mechanical stress, thermal cycling, or process non-uniformities.
 
 
 
