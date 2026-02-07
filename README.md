@@ -33,6 +33,9 @@ The defect classes were selected to represent **commonly observed and manufactur
 [![Via](https://img.shields.io/badge/Malformed_Vias-purple)](#)
 [![CMP](https://img.shields.io/badge/CMP_Scratches-green)](#)
 [![Crack](https://img.shields.io/badge/Crack_Defects-darkred)](#)
+[![Clean](https://img.shields.io/badge/Clean[Defect_free]-brightgreen)](#)
+[![Other](https://img.shields.io/badge/Other[Miscellaneous]-grey)](#)
+
 
 ### 🔹 Primary Defect Classes:
 
@@ -53,6 +56,8 @@ The defect classes were selected to represent **commonly observed and manufactur
 
 - **Crack Defects**  
   Structural cracks caused by mechanical stress, thermal cycling, or process non-uniformities.
+
+  
 
 
 
