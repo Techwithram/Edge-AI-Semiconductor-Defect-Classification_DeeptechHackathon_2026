@@ -88,6 +88,18 @@ Key principles include:
 - Clear separation between data preparation, training, and deployment
 - Early consideration of model portability and conversion formats
 
+## 🔄 Edge-AI Development Pipeline
+
+| Stage | Description | Key Output |
+|------|------------|-----------|
+| D0 | Dataset collection & curation | Labeled inspection images |
+| D1 | Preprocessing & normalization | ML-ready input tensors |
+| D2 | Model training & validation | Trained lightweight CNN |
+| D3 | Model evaluation | Accuracy, Precision, Recall |
+| D4 | Model export | ONNX model |
+| D5 | Edge porting | NXP eIQ-compatible artifacts |
+
+
 
 
   
