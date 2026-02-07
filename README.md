@@ -25,15 +25,16 @@ defect classification system** that can:
 
 🧪Defect Classes Considered:
 
-The system is designed to classify inspection images into the following categories:
+The defect classes were selected to represent **commonly observed and manufacturing-critical failure modes** across semiconductor fabrication processes such as lithography, etching, CMP, and interconnect formation. The classification scheme balances **realism, separability, and edge feasibility**.
 
-- **Clean**          : Defect-free semiconductor structures
-- **Via Defects**    : Missing, voided, or misaligned vias
-- **CMP Scratches**  : Surface scratches caused during chemical mechanical polishing
-- **Other**          : Ambiguous, unknown, or mixed defect patterns
+[![Bridge](https://img.shields.io/badge/Bridge-Defect-red)](#)
+[![LER](https://img.shields.io/badge/LER-Line%20Edge%20Roughness-blue)](#)
+[![Open](https://img.shields.io/badge/Open-Defect-orange)](#)
+[![Via](https://img.shields.io/badge/Via-Defect-purple)](#)
+[![CMP](https://img.shields.io/badge/CMP-Scratch-green)](#)
+[![Crack](https://img.shields.io/badge/Crack-Defect-darkred)](#)
 
-Each class is carefully curated to minimize overlap and reflect realistic fab
-inspection scenarios.
+
 
 
 
