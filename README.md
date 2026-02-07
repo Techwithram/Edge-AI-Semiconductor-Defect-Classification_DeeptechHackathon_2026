@@ -81,7 +81,8 @@ The defect classes were selected to represent **commonly observed and manufactur
 ### 🧠Design Philosophy:
 
 This project follows a **practical Edge-AI philosophy**, i.e., accuracy alone is not sufficient; models must be efficient, portable, and compatible with real-world edge deployment constraints.
-Key principles:
+
+Key principles include:
 - Dataset quality over model complexity
 - Lightweight architectures over deep, resource-heavy networks
 - Clear separation between data preparation, training, and deployment
