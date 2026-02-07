@@ -27,12 +27,12 @@ defect classification system** that can:
 
 The defect classes were selected to represent **commonly observed and manufacturing-critical failure modes** across semiconductor fabrication processes such as lithography, etching, CMP, and interconnect formation. The classification scheme balances **realism, separability, and edge feasibility**.
 
-[![Bridge](https://img.shields.io/badge/Bridge-Defect-red)](#)
-[![LER](https://img.shields.io/badge/LER-Line%20Edge%20Roughness-blue)](#)
-[![Open](https://img.shields.io/badge/Open-Defect-orange)](#)
-[![Via](https://img.shields.io/badge/Via-Defect-purple)](#)
-[![CMP](https://img.shields.io/badge/CMP-Scratch-green)](#)
-[![Crack](https://img.shields.io/badge/Crack-Defect-darkred)](#)
+[![Bridge](https://img.shields.io/badge/Bridge_Defects-red)](#)
+[![LER](https://img.shields.io/badge/LER-blue)](#)
+[![Open](https://img.shields.io/badge/Open_Defects-orange)](#)
+[![Via](https://img.shields.io/badge/Malformed_Vias-purple)](#)
+[![CMP](https://img.shields.io/badge/CMP_Scratches-green)](#)
+[![Crack](https://img.shields.io/badge/Crack_Defects-darkred)](#)
 
 
 
