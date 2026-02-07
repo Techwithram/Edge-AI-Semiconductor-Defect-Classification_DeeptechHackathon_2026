@@ -88,7 +88,7 @@ Key principles include:
 - Clear separation between data preparation, training, and deployment
 - Early consideration of model portability and conversion formats
 
-## 🔄 Edge-AI Development Pipeline
+### 🔄Edge-AI Development Pipeline:
 
 | Stage | Description | Key Output |
 |------|------------|-----------|
@@ -98,6 +98,20 @@ Key principles include:
 | D3 | Model evaluation | Accuracy, Precision, Recall |
 | D4 | Model export | ONNX model |
 | D5 | Edge porting | NXP eIQ-compatible artifacts |
+
+### 📁Repository Structure:
+
+Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026/
+├── dataset/        # Dataset structure & description
+├── src/            # Preprocessing, training, inference code
+├── models/         # Trained models (ONNX)
+├── results/        # Evaluation metrics & confusion matrices
+├── docs/           # Detailed documentation
+└── README.md
+
+
+
+
 
 
 
