@@ -65,7 +65,18 @@ The defect classes were selected to represent **commonly observed and manufactur
 - **Other**  
   A catch-all category that includes **missing contacts, merging contacts**, and other uncommon or ambiguous defects that do not consistently belong to the primary classes.
 
+### 📋 Class Summary
 
+| Category Type | Defect Class | Description |
+|--------------|-------------|-------------|
+| Primary | Bridge | Unintended interconnect shorts |
+| Primary | LER | Rough line edges from lithography |
+| Primary | Open | Broken or missing connections |
+| Primary | Via | Faulty inter-layer connections |
+| Primary | CMP | Polishing-induced surface scratches |
+| Primary | Crack | Structural or stress-induced fractures |
+| Auxiliary | Clean | Defect-free structures |
+| Auxiliary | Other | Missing contacts, merging contacts, misc. |
 
 
 
