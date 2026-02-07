@@ -101,13 +101,13 @@ Key principles include:
 
 ### 📁Repository Structure:
 
-Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026/
+```Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026/
 ├── dataset/        # Dataset structure & description
 ├── src/            # Preprocessing, training, inference code
 ├── models/         # Trained models (ONNX)
 ├── results/        # Evaluation metrics & confusion matrices
 ├── docs/           # Detailed documentation
-└── README.md
+└── README.md```
 
 
 
