@@ -65,7 +65,7 @@ The defect classes were selected to represent **commonly observed and manufactur
 - **Other**  
   A catch-all category that includes **missing contacts, merging contacts**, and other uncommon or ambiguous defects that do not consistently belong to the primary classes.
 
-### 📋 Class Summary
+### 📋Class Summary:
 
 | Category Type | Defect Class | Description |
 |--------------|-------------|-------------|
@@ -78,6 +78,14 @@ The defect classes were selected to represent **commonly observed and manufactur
 | Auxiliary | Clean | Defect-free structures |
 | Auxiliary | Other | Missing contacts, merging contacts, misc. |
 
+### 🧠Design Philosophy:
+
+This project follows a **practical Edge-AI philosophy**, i.e., accuracy alone is not sufficient; models must be efficient, portable, and compatible with real-world edge deployment constraints.
+Key principles:
+- Dataset quality over model complexity
+- Lightweight architectures over deep, resource-heavy networks
+- Clear separation between data preparation, training, and deployment
+- Early consideration of model portability and conversion formats
 
 
 
