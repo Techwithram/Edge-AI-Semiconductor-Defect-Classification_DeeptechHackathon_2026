@@ -108,6 +108,8 @@ Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026/
 ├── docs/           # Detailed documentation
 └── README.md
 ```
+📊 Dataset details and source information are documented in the [dataset](dataset/) directory, including a reference to the original Kaggle dataset.
+
 ## ⚙️Edge Deployment Strategy
 
 The trained model is exported to the ONNX format to ensure portability across edge platforms. The target deployment flow uses **NXP eIQ**, focusing on:
