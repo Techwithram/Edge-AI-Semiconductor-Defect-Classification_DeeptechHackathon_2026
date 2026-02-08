@@ -158,9 +158,9 @@ Current status:
 - Edge porting (NXP eIQ) : ⏳ In Progress
 
 ---
-**Maintainer    :** Tatikonda Ramakrishna
+**Maintainer    :** [![Tatikonda Ramakrishna](https://github.com/Techwithram)]
 
-**Co-Maintainers:** Mathivanan V, Kavya K, Midhunan D J
+**Co-Maintainers:** [![Mathivanan V](https://github.com/Mathivanan17)], [![Kavya K](https://github.com/KKAVYA-3)], Midhunan D J
 
 **Domain        :** Edge-AI • Semiconductor Manufacturing • Industry 4.0
 
