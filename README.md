@@ -118,14 +118,36 @@ The trained model is exported to the ONNX format to ensure portability across ed
 
 No physical hardware is required as part of the hackathon scope; the workflow concludes with generation of deployment-ready artifacts.
 
-## 📈 Model Performance Summary
+## 📈Model Results
 
-- **mAP@50:** 0.9288  
-- **mAP@50–95:** 0.7483  
-- **Precision:** 0.9081  
-- **Recall:** 0.8963  
+The trained model was evaluated using standard **object detection metrics**, appropriate for the detection-based defect classification formulation adopted in this project.
 
-Evaluation is performed using standard object detection metrics, reflecting both localization accuracy and classification confidence. Given the detection-based formulation, model performance is reported using mAP, precision, and recall rather than image-level accuracy.
+#### 🔢Quantitative Performance
+
+| Metric | Value |
+|------|------|
+| mAP@50 | **0.9288** |
+| mAP@50–95 | **0.7483** |
+| Precision | **0.9081** |
+| Recall | **0.8963** |
+
+#### 🧠Performance Interpretation
+
+The high mAP@50 score demonstrates strong defect localization and class discrimination capability. The mAP@50–95 value indicates robust performance under stricter localization thresholds. Balanced precision and recall values confirm that the model effectively avoids both excessive false positives and missed defects, which is critical in semiconductor inspection workflows.
+
+## ⚙️Quantization & Edge Readiness
+
+To align with real-world edge deployment constraints, the trained model is exported in **ONNX format** and further optimized through **INT8 quantization**.
+
+Two model variants are maintained:
+- **Unquantized ONNX model** for reference accuracy and validation
+- **Quantized INT8 ONNX model** for reduced memory footprint and faster inference
+
+This dual-model strategy enables a clear trade-off analysis between accuracy and efficiency, which is essential for deployment on resource-constrained edge devices such as the **NXP i.MX RT series** using the **NXP eIQ** toolchain.
+
+📂 Detailed results, evaluation plots, and sample inference outputs are available
+in the [`results/`](results/) directory.  
+📦 Trained and quantized models are available in the [`models/`](models/) directory.
 
 ## 🏁Hackathon Context
 
