@@ -160,7 +160,7 @@ Current status:
 ---
 **Maintainer    :** [![Tatikonda Ramakrishna](https://github.com/Techwithram)]
 
-**Co-Maintainers:** [![Mathivanan V](https://github.com/Mathivanan17)], [![Kavya K](https://github.com/KKAVYA-3)], Midhunan D J
+**Co-Maintainers:** [![Mathivanan V](https://github.com/Mathivanan17)], [![Kavya K](https://github.com/KKAVYA-3)], [![Midhunan D J](https://github.com/MidhunanDJ)]
 
 **Domain        :** Edge-AI • Semiconductor Manufacturing • Industry 4.0
 
