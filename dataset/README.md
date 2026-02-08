@@ -2,30 +2,35 @@
 
 This directory describes the dataset used for the Edge-AI based semiconductor defect classification project developed as part of the IESA DeepTech Hackathon 2026. The dataset consists of real inspection images curated for defect-level classification under edge deployment constraints.
 
-## 📂Dataset Organization
+## 📂Dataset Organization (YOLO Format)
 
-The dataset is organized using a folder-based labeling scheme compatible with standard deep learning frameworks:
+The dataset is organized using the **YOLO object detection format**, where images and labels are stored separately. Each image has a corresponding `.txt` annotation file containing bounding box coordinates and class IDs.
 
-```
+```text
 dataset/
 ├── train/
-│   ├── bridge/
-│   ├── ler/
-│   ├── open/
-│   ├── via/
-│   ├── cmp/
-│   ├── crack/
-│   └── clean/
+│   ├── images/   # Training images
+│   └── labels/   # YOLO-format label files
 │
 └── val/
-    ├── bridge/
-    ├── ler/
-    ├── open/
-    ├── via/
-    ├── cmp/
-    ├── crack/
-    └── clean/
+    ├── images/   # Validation images
+    └── labels/   # YOLO-format label files
+
 ```
+## 🏷️Class Label Mapping
+
+Each defect category is assigned a unique numerical class ID as required by the YOLO format. The mapping is consistent across training and validation datasets.
+
+The defined classes include:
+- Bridge
+- Line Edge Roughness (LER)
+- Open
+- Via
+- CMP Scratch
+- Crack
+- Clean
+- Others
+
 ## 🖼️Image Characteristics
 
 - Inspection images: SEM-style micrographs
