@@ -1,5 +1,5 @@
 # Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026
-This repository presents an edge-AI based defect classification system for wafer/die inspection happening in semiconductor fabrication industries.
+This repository presents an edge-AI based **detection-driven defect classification system** for wafer/die inspection in semiconductor fabrication industries.
 
 [![Hackathon](https://img.shields.io/badge/DeepTech_Hackathon%202026-blue)](https://i4c.in/iesa-hackathon/#ps-iesa)
 [![Edge AI](https://img.shields.io/badge/Edge_AI-green)](#)
@@ -9,11 +9,11 @@ This repository presents an edge-AI based defect classification system for wafer
 [![GF](https://img.shields.io/badge/Sponsored%20by-GlobalFoundries-darkblue)](https://www.globalfoundries.com)
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](#)
 
-### Introduction:
+## Introduction
 
-Semiconductor manufacturing involves hundreds of tightly controlled fabrication steps, where even microscopic defects can lead to yield loss or catastrophic device failure. Modern fabs generate massive volumes of inspection images using tools such as optical microscopes, SEM, and defect review systems. Traditional centralized inspection pipelines suffer from high latency, heavy bandwidth usage, and poor scalability. This project explores an **Edge-AI based defect classification system** that enables fast, on-device inference aligned with Industry 4.0 manufacturing requirements.
+Semiconductor manufacturing involves hundreds of tightly controlled fabrication steps, where even microscopic defects can lead to yield loss or catastrophic device failure. Modern fabs generate massive volumes of inspection images using tools such as optical microscopes, SEM, and defect review systems. Traditional centralized inspection pipelines suffer from high latency, heavy bandwidth usage, and poor scalability. This project explores an **Edge-AI based, detection-driven defect classification system** that enables fast, on-device inference by localizing defect regions and assigning them to predefined semiconductor defect classes, aligned with Industry 4.0 manufacturing requirements.
 
-### 🎯Hackathon Objective:
+## 🎯Hackathon Objective
 
 The objective of this project is to design and demonstrate an **Edge-AI capable
 defect classification system** that can:
@@ -23,7 +23,7 @@ defect classification system** that can:
 - Enable real-time, high-volume inspection workflows
 - Be portable to NXP eIQ deployment flows targeting i.MX RT series devices
 
-### 🧪Defect Classes Considered:
+## 🧪Defect Classes Considered
 
 The defect classes were selected to represent **commonly observed and manufacturing-critical failure modes** across semiconductor fabrication processes such as lithography, etching, CMP, and interconnect formation. The classification scheme balances **realism, separability, and edge feasibility**.
 
@@ -37,7 +37,7 @@ The defect classes were selected to represent **commonly observed and manufactur
 [![Other](https://img.shields.io/badge/Other[Miscellaneous]-grey)](#)
 
 
-### 🔹 Primary Defect Classes:
+## 🔹 Primary Defect Classes
 
 - **Bridge Defects**  
   Unintended electrical connections formed between adjacent metal lines, typically caused by lithography or etching errors.
@@ -57,7 +57,7 @@ The defect classes were selected to represent **commonly observed and manufactur
 - **Crack Defects**  
   Structural cracks caused by mechanical stress, thermal cycling, or process non-uniformities.
 
-### 🔹 Auxiliary Classes:
+## 🔹 Auxiliary Classes
 
 - **Clean**  
   Defect-free semiconductor structures exhibiting uniform geometry and process-consistent patterns. This class is critical to prevent false positives during inspection.
@@ -65,7 +65,7 @@ The defect classes were selected to represent **commonly observed and manufactur
 - **Other**  
   A catch-all category that includes **missing contacts, merging contacts**, and other uncommon or ambiguous defects that do not consistently belong to the primary classes.
 
-### 📋Class Summary:
+## 📋Class Summary
 
 | Category Type | Defect Class | Description |
 |--------------|-------------|-------------|
@@ -78,7 +78,7 @@ The defect classes were selected to represent **commonly observed and manufactur
 | Auxiliary | Clean | Defect-free structures |
 | Auxiliary | Other | Missing contacts, merging contacts, misc. |
 
-### 🧠Design Philosophy:
+## 🧠Design Philosophy
 
 This project follows a **practical Edge-AI philosophy**, i.e., accuracy alone is not sufficient; models must be efficient, portable, and compatible with real-world edge deployment constraints.
 
@@ -88,7 +88,7 @@ Key principles include:
 - Clear separation between data preparation, training, and deployment
 - Early consideration of model portability and conversion formats
 
-### 🔄Edge-AI Development Pipeline:
+## 🔄Edge-AI Development Pipeline
 
 | Stage | Description | Key Output |
 |------|------------|-----------|
@@ -99,7 +99,7 @@ Key principles include:
 | D4 | Model export | ONNX model |
 | D5 | Edge porting | NXP eIQ-compatible artifacts |
 
-### 📁Repository Structure:
+## 📁Repository Structure
 ```
 Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026/
 ├── dataset/        # Dataset structure & description
@@ -109,7 +109,7 @@ Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026/
 ├── docs/           # Detailed documentation
 └── README.md
 ```
-### ⚙️Edge Deployment Strategy:
+## ⚙️Edge Deployment Strategy
 
 The trained model is exported to the ONNX format to ensure portability across edge platforms. The target deployment flow uses **NXP eIQ**, focusing on:
 
@@ -119,7 +119,7 @@ The trained model is exported to the ONNX format to ensure portability across ed
 
 No physical hardware is required as part of the hackathon scope; the workflow concludes with generation of deployment-ready artifacts.
 
-### 🏁Hackathon Context:
+## 🏁Hackathon Context
 
 This project is developed as part of the **DeepTech Hackathon 2026**, organized by IESA and sponsored by NXP Semiconductors and GlobalFoundries.
 
