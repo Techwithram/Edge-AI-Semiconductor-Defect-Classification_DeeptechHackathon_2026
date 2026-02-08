@@ -153,10 +153,9 @@ This project is developed as part of the **DeepTech Hackathon 2026**, organized 
 Current status:
 - Dataset collection   : ✅ Completed
 - Model development    : ✅ Completed
-- Edge porting         : ⏳ In progress
 
 ---
-**Maintainer    :** Thatikonda Ramakrishna
+**Maintainer    :** Tatikonda Ramakrishna
 
 **Co-Maintainers:** Mathivanan V, Kavya K, Midhunan D J
 
