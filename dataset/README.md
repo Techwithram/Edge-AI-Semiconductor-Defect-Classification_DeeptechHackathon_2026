@@ -38,9 +38,13 @@ The defined classes include:
 - Defect visibility: Clear, defect-centric views
 - Preprocessing: Applied during training (resize, normalization)
 
-## ⚠️Dataset Availability
+## 🔗Dataset Source
 
-Due to size constraints and source licensing considerations, the full dataset images are not uploaded to this repository. This repository provides the dataset structure, documentation, and processing pipeline to ensure reproducibility and transparency.
+The dataset used in this project is derived from publicly available semiconductor defect inspection images curated and hosted on Kaggle.
 
+👉 **Kaggle Dataset:**  
+[Semiconductor Defect Detection Dataset](https://www.kaggle.com/datasets/ramkrishthatikonda/deeptech-hackathon/)
+
+The dataset was further curated, filtered, and organized into YOLO-compatible training and validation splits to align with the objectives of this hackathon.
 
 
