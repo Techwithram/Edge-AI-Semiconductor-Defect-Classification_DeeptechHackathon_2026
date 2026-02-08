@@ -18,7 +18,7 @@ Given these advantages, this project focuses on designing an AI pipeline that is
 
 ### 🧠Problem Formulation:
 
-The defect analysis task is formulated as a **multi-class image classification** problem. Each inspection image is assigned to one of the predefined defect categories or to a non-defective (clean) or ambiguous (other) class. Object detection or segmentation approaches were intentionally avoided to maintain lower computational complexity and to better suit edge deployment constraints.
+The defect analysis task is approached using a **detection-based defect classification strategy**. Instead of assigning a single label to an entire image, the model first **detects localized defect regions** and then assigns each detected instance to one of the predefined defect classes. This formulation enables the system to handle images containing multiple defects and provides better interpretability for semiconductor inspection workflows, while still maintaining feasibility for edge deployment.
 
 ### 🧪Dataset-Centric Approach:
 
