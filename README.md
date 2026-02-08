@@ -118,6 +118,16 @@ The trained model is exported to the ONNX format to ensure portability across ed
 
 No physical hardware is required as part of the hackathon scope; the workflow concludes with generation of deployment-ready artifacts.
 
+## 📈 Model Performance Summary
+
+- **mAP@50:** 0.9288  
+- **mAP@50–95:** 0.7483  
+- **Precision:** 0.9081  
+- **Recall:** 0.8963  
+
+Evaluation is performed using standard object detection metrics, reflecting both
+localization accuracy and classification confidence.
+
 ## 🏁Hackathon Context
 
 This project is developed as part of the **DeepTech Hackathon 2026**, organized by IESA and sponsored by NXP Semiconductors and GlobalFoundries.
