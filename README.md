@@ -116,11 +116,12 @@ The trained model is exported to the ONNX format to ensure portability across ed
 - Low memory footprint and inference latency
 - Alignment with real fab edge constraints
 
-No physical hardware is required as part of the hackathon scope; the workflow concludes with generation of deployment-ready artifacts.
+No physical hardware is required as part of the hackathon scope; the workflow concludes with generation of deployment-ready artifacts. 📦 Trained and quantized models are available in the [`models/`](models/) directory.
 
 ## 📈Model Results
 
-The trained model was evaluated using standard **object detection metrics**, appropriate for the detection-based defect classification formulation adopted in this project.
+The trained model was evaluated using standard **object detection metrics**, appropriate for the detection-based defect classification formulation adopted in this project. 📂 Detailed results, evaluation plots, and sample inference outputs are available
+in the [`results/`](results/) directory.  
 
 #### 🔢Quantitative Performance
 
@@ -144,10 +145,6 @@ Two model variants are maintained:
 - **Quantized INT32 ONNX model** for reduced memory footprint and faster inference
 
 This dual-model strategy enables a clear trade-off analysis between accuracy and efficiency, which is essential for deployment on resource-constrained edge devices such as the **NXP i.MX RT series** using the **NXP eIQ** toolchain.
-
-📂 Detailed results, evaluation plots, and sample inference outputs are available
-in the [`results/`](results/) directory.  
-📦 Trained and quantized models are available in the [`models/`](models/) directory.
 
 ## 🏁Hackathon Context
 
