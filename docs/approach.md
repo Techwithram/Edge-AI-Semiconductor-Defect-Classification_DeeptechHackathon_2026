@@ -17,7 +17,7 @@ Given these advantages, this project focuses on designing an AI pipeline that is
 
 ## 🧠Problem Formulation
 
-The defect analysis task is formulated as a **defect detection and classification** problem using a lightweight object detection approach. Instead of classifying an entire image globally, the model detects localized defect regions and assigns each detected instance to one of the predefined defect categories.
+The defect analysis task is formulated as a **defect detection and classification** problem using a lightweight object detection approach. Instead of classifying an entire image globally, the model detects localized defect regions and assigns each detected instance to one of the predefined defect categories. The dataset is structured using the YOLO detection format, enabling efficient training of lightweight object detection models for defect localization and classification.
 
 This formulation enables:
 - Spatial localization of defects
@@ -25,7 +25,6 @@ This formulation enables:
 - Better alignment with practical semiconductor inspection workflows
 
 The approach is designed to balance detection performance with edge deployment constraints.
-
 
 ## 🧪Dataset-Centric Approach
 
@@ -72,18 +71,6 @@ Key edge considerations include:
 - Low memory and compute requirements
 - Feasibility of real-time inference
 
-## 🔄Current Status and Next Steps
-
-Current progress:
-- Dataset collection and documentation: Completed
-- Repository and documentation setup: Completed
-- Initial model development: In progress
-
-Planned next steps:
-- Complete clean and other class curation
-- Train and validate lightweight models
-- Export trained model to ONNX format
-- Perform edge porting using NXP eIQ
 
 
 
