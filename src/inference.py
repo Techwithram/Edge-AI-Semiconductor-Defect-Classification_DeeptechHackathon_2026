@@ -7,7 +7,7 @@ from ultralytics import YOLO
 
 # --- CONFIGURATION ---
 MODEL_PATH = "models/unquantized/model.onnx"
-INPUT_SOURCE = "results/samples/test_images/"
+INPUT_SOURCE = "results/samples"
 OUTPUT_DIR = "results/inference_outputs"
 CONF_THRESHOLD = 0.25
 
