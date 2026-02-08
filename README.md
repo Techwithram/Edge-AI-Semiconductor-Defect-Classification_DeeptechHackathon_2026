@@ -125,8 +125,7 @@ No physical hardware is required as part of the hackathon scope; the workflow co
 - **Precision:** 0.9081  
 - **Recall:** 0.8963  
 
-Evaluation is performed using standard object detection metrics, reflecting both
-localization accuracy and classification confidence.
+Evaluation is performed using standard object detection metrics, reflecting both localization accuracy and classification confidence. Given the detection-based formulation, model performance is reported using mAP, precision, and recall rather than image-level accuracy.
 
 ## 🏁Hackathon Context
 
