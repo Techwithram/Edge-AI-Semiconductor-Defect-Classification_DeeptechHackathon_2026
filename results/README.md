@@ -1,17 +1,18 @@
-# Model Evaluation Results
+# Results Overview
 
-This section summarizes the performance of the trained defect detection model. Since the task is formulated as a **detection-based defect classification problem**, evaluation is performed using standard object detection metrics.
+This directory contains evaluation artifacts generated during model validation.
 
-## 📊Quantitative Results
+## Contents
 
-| Metric | Value | Description |
-|------|------|------------|
-| mAP@50 | **0.9288** | Mean Average Precision at IoU = 0.5 |
-| mAP@50–95 | **0.7483** | Mean AP averaged over IoU thresholds (0.5–0.95) |
-| Precision | **0.9081** | Fraction of correct detections among all detections |
-| Recall | **0.8963** | Fraction of detected defects among all ground truth defects |
+- **metrics/**  
+  Quantitative performance metrics such as mAP, precision, and recall.
 
-## 🧠Interpretation
+- **figures/**  
+  Visual evaluation artifacts including confusion matrices and performance curves
+  (precision–recall, F1–confidence, etc.).
 
-The high mAP@50 score indicates strong defect localization and classification capability, while the mAP@50–95 score reflects robust performance across stricter localization thresholds. Balanced precision and recall values demonstrate that the model avoids both excessive false positives and missed defects, which is critical for semiconductor inspection workflows.
+- **samples/**  
+  Sample inference outputs and validated batch images demonstrating defect
+  localization and classification.
 
+All results are generated from validation data and reflect realistic model performance.
