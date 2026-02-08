@@ -1,5 +1,5 @@
 # Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026
-This repository presents an edge-AI based **detection-driven defect classification system** for wafer/die inspection in semiconductor fabrication industries.
+This repository presents **an edge-AI based defect detection and classification system** for wafer/die inspection in semiconductor fabrication industries.
 
 [![Hackathon](https://img.shields.io/badge/DeepTech_Hackathon%202026-blue)](https://i4c.in/iesa-hackathon/#ps-iesa)
 [![Edge AI](https://img.shields.io/badge/Edge_AI-green)](#)
@@ -94,7 +94,7 @@ Key principles include:
 | D0 | Dataset collection & curation | Labeled inspection images |
 | D1 | Preprocessing & normalization | ML-ready input tensors |
 | D2 | Model training & validation | Trained lightweight detection model (YOLO) |
-| D3 | Model evaluation | Accuracy, Precision, Recall |
+| D3 | Model evaluation | mAP@50, mAP@50–95, Precision, Recall |
 | D4 | Model export | ONNX model |
 | D5 | Edge porting | NXP eIQ-compatible artifacts |
 
@@ -151,8 +151,9 @@ This dual-model strategy enables a clear trade-off analysis between accuracy and
 This project is developed as part of the **DeepTech Hackathon 2026**, organized by IESA and sponsored by NXP Semiconductors and GlobalFoundries.
 
 Current status:
-- Dataset collection   : ✅ Completed
-- Model development    : ✅ Completed
+- Dataset collection     : ✅ Completed
+- Model development      : ✅ Completed
+- Edge porting (NXP eIQ) : ⏳ In Progress
 
 ---
 **Maintainer    :** Tatikonda Ramakrishna
