@@ -16,3 +16,12 @@ This directory contains evaluation artifacts generated during model validation.
   localization and classification.
 
 All results are generated from validation data and reflect realistic model performance.
+
+## 📷Visual Evaluation
+
+The figures and sample outputs included in this directory provide qualitative evidence of the model’s defect detection capability.
+
+- Confusion matrix highlights class-wise detection behavior
+- Precision–Recall and confidence curves illustrate robustness across thresholds
+- Validated batch images demonstrate real inference outputs with localized defects
+
