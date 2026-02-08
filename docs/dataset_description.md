@@ -6,16 +6,16 @@ The dataset used in this project consists of **real semiconductor inspection ima
 
 ## 🧪Defect Classes
 
-The current dataset includes the following **six primary defect classes**:
+The current dataset includes the following **six primary defect classes** and each class contains around 200-220 datasets.
 
-| Class | Description | Image Count |
-|------|------------|-------------|
-| Bridge | Unintended electrical shorts between interconnects | 19 |
-| LER | Line Edge Roughness from lithography variations | 18 |
-| Open | Broken or missing interconnect paths | 16 |
-| Via | Faulty inter-layer connections (missing/voided/misaligned) | 23 |
-| CMP | Surface scratches from chemical mechanical polishing | 15 |
-| Crack | Structural or stress-induced fractures | 18 |
+| Class | Description |
+|------|------------|
+| Bridge | Unintended electrical shorts between interconnects |
+| LER | Line Edge Roughness from lithography variations |
+| Open | Broken or missing interconnect paths |
+| Via | Faulty inter-layer connections (missing/voided/misaligned) |
+| CMP | Surface scratches from chemical mechanical polishing |
+| Crack | Structural or stress-induced fractures |
 
 ## 🧼Clean and Other Classes
 
@@ -23,7 +23,7 @@ The current dataset includes the following **six primary defect classes**:
   A separate set of defect-free inspection images is maintained to represent normal process conditions. These images are curated independently to prevent contamination of defect classes.
 
 - **Other**:  
-  An additional *Other* category is defined to capture **missing contacts, merging contacts**, and other ambiguous or uncommon defects that do not consistently fit into the primary defect classes. This class is intentionally curated separately and will be incrementally    populated during later stages of development.
+  An additional *Other* category is defined to capture **missing contacts**, and other ambiguous or uncommon defects that do not consistently fit into the primary defect classes. This class is intentionally curated separately and will be incrementally populated during     later stages of development.
 
 ## 🖼️Image Characteristics
 
