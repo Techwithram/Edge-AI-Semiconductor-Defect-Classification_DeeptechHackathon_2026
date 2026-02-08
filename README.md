@@ -102,7 +102,7 @@ Key principles include:
 ```
 Edge-AI-Semiconductor-Defect-Classification_DeeptechHackathon_2026/
 ├── dataset/        # Dataset structure & description
-├── src/            # Preprocessing, training, inference code
+├── src/            # training, inference code
 ├── models/         # Trained models (ONNX)
 ├── results/        # Evaluation metrics & confusion matrices
 ├── docs/           # Detailed documentation
@@ -138,11 +138,11 @@ The high mAP@50 score demonstrates strong defect localization and class discrimi
 
 ## ⚙️Quantization & Edge Readiness
 
-To align with real-world edge deployment constraints, the trained model is exported in **ONNX format** and further optimized through **INT32 quantization**.
+To align with real-world edge deployment constraints, the trained model is exported in **ONNX format** and further optimized through **INT8 quantization**.
 
 Two model variants are maintained:
 - **Unquantized ONNX model** for reference accuracy and validation
-- **Quantized INT32 ONNX model** for reduced memory footprint and faster inference
+- **Quantized INT8 ONNX model** for reduced memory footprint and faster inference
 
 This dual-model strategy enables a clear trade-off analysis between accuracy and efficiency, which is essential for deployment on resource-constrained edge devices such as the **NXP i.MX RT series** using the **NXP eIQ** toolchain.
 
