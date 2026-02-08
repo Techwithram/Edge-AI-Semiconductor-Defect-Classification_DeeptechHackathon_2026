@@ -15,10 +15,9 @@ Semiconductor manufacturing involves hundreds of tightly controlled fabrication 
 
 ## 🎯Hackathon Objective
 
-The objective of this project is to design and demonstrate an **Edge-AI capable
-defect classification system** that can:
+The objective of this project is to design and demonstrate an **Edge-AI capable defect classification system** that can:
 
-- Detect and classify semiconductor wafer/die defects into predefined categories
+- Detect defect regions in semiconductor wafer/die inspection images and classify them into predefined defect categories
 - Achieve strong accuracy using lightweight, edge-friendly models
 - Enable real-time, high-volume inspection workflows
 - Be portable to NXP eIQ deployment flows targeting i.MX RT series devices
@@ -94,7 +93,7 @@ Key principles include:
 |------|------------|-----------|
 | D0 | Dataset collection & curation | Labeled inspection images |
 | D1 | Preprocessing & normalization | ML-ready input tensors |
-| D2 | Model training & validation | Trained lightweight CNN |
+| D2 | Model training & validation | Trained lightweight detection model (YOLO) |
 | D3 | Model evaluation | Accuracy, Precision, Recall |
 | D4 | Model export | ONNX model |
 | D5 | Edge porting | NXP eIQ-compatible artifacts |
