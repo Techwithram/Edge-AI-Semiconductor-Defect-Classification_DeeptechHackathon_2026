@@ -32,14 +32,18 @@ The current dataset includes the following **six primary defect classes**:
 - Image quality        : Clear defect visibility with minimal background noise
 - Resolution           : Standardized during preprocessing
 
-## 📂Dataset Split
+## 📂Dataset Organization and Split
 
-At the current stage, the dataset is organized into:
+The dataset is organized following the **YOLO object detection format**, where images and labels are stored in separate directories. The current dataset includes:
 
 - **Training set**
 - **Validation set**
 
-A dedicated **test set** will be created in later phases to evaluate generalization performance and to align with organizer-provided test data during Phase 2 of the hackathon.
+Each split contains:
+- An `images/` directory with inspection images
+- A `labels/` directory with corresponding YOLO-format annotations
+
+This structure enables direct compatibility with YOLO-based training and evaluation pipelines.
 
 ## 🔄Dataset Evolution
 
