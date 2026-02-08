@@ -1,4 +1,3 @@
-######### Documentation for project approach is placed here ########
 # Project Approach
 
 ### 📌Problem Understanding:
