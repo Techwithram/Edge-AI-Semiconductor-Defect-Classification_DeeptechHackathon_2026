@@ -152,8 +152,8 @@ This project is developed as part of the **DeepTech Hackathon 2026**, organized 
 
 Current status:
 - Dataset collection   : ✅ Completed
-- Model development    : ⏳ In progress
-- Edge porting         : ⏳ Planned
+- Model development    : ✅ Completed
+- Edge porting         : ⏳ In progress
 
 ---
 **Maintainer    :** Thatikonda Ramakrishna
