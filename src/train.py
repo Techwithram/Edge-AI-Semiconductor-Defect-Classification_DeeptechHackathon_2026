@@ -1,3 +1,8 @@
+"""
+Training script for Edge-AI semiconductor defect detection model.
+YOLO-based lightweight detector optimized for edge deployment.
+"""
+
 import os
 from ultralytics import YOLO
 
